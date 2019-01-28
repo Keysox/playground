@@ -1,6 +1,7 @@
 {
   "name": "greenkeeper-playground",
   "version": "0.1.0",
+  "homepage": "https://alexkessock.com/playground/",
   "private": true,
   "devDependencies": {
     "@types/jest": "23.3.13",
