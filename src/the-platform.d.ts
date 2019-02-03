@@ -1,1 +1,1 @@
-declare module 'the-platform';
+declare module 'the-platform'
