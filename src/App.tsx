@@ -1,26 +1,12 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { Img } from 'the-platform';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.tsx</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
+      <React.Suspense fallback={<div>Loading...</div>}>
+        <Img src="https://lh3.googleusercontent.com/dQVzJ31kwETDKHFoJqD2smCxCLY_w5SLT7_-LIgvPChqAjUifh5oot8XU31eEATBPN4rhB3jZd9UWRaTaQJPzXGGO_UM-sRQMA6MC0nGLeEIXLaVmAOrkNVZmbLcaPwT3dw-uhk-Xvs=w1840-h1226-no" />
+      </React.Suspense>
     );
   }
 }
