@@ -20,7 +20,7 @@
     "normalize.css": "^8.0.1",
     "react": "16.8.2",
     "react-cache": "2.0.0-alpha.1",
-    "react-dom": "16.7.0",
+    "react-dom": "16.8.2",
     "the-platform": "0.9.3"
   },
   "scripts": {
