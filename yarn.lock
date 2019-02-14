@@ -985,10 +985,10 @@
   resolved "https://registry.yarnpkg.com/@types/q/-/q-1.5.1.tgz#48fd98c1561fe718b61733daed46ff115b496e18"
   integrity sha512-eqz8c/0kwNi/OEHQfvIuJVLTst3in0e7uTKeuY+WL/zfKn0xVujOTp42bS/vUUokhK5P2BppLd9JXMOMHcgbjA==
 
-"@types/react-cache@2.0.0":
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/@types/react-cache/-/react-cache-2.0.0.tgz#591dccb95dbe98f9cbb3309ee65f7eba8c2c6f02"
-  integrity sha512-cH0wn8yra09EkAq/IKGLQksoyeEozLpJx6rBQh5bKCvTlPwg+MYCTj8sywpyVsfIxPNYB5Yd+S3d7F6ypmxtqQ==
+"@types/react-cache@2.0.1":
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/@types/react-cache/-/react-cache-2.0.1.tgz#7f06bc9bb14f3ef60b9ffc545a473ad885f623db"
+  integrity sha512-5T8/ZF+uw5RLmmO0JItAwZs3rDh1b61xxHFw4SSEFMIkkE673oIfpfLxD7fbT3UZtAKN7HTvyhJDKYIQZMK7Lg==
 
 "@types/react-dom@16.8.0":
   version "16.8.0"
