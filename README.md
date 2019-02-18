@@ -1,6 +1,6 @@
-# Playground
+# Photography
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/Keysox/playground.svg)](https://greenkeeper.io/)
+[![Greenkeeper badge](https://badges.greenkeeper.io/Keysox/photography.svg)](https://greenkeeper.io/)
 
 ## Available Scripts
 

@@ -1,7 +1,7 @@
 {
-  "name": "playground",
+  "name": "photography",
   "version": "0.1.0",
-  "homepage": "https://alexkessock.com/playground/",
+  "homepage": "https://alexkessock.com/photography/",
   "private": true,
   "devDependencies": {
     "@types/jest": "24.0.6",

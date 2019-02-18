@@ -14,11 +14,11 @@ img {
 }
 
 #root {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  background-color: #282c34;
   color: white;
+  display: flex;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+  min-height: 100vh;
 }
