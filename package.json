@@ -6,7 +6,7 @@
   "devDependencies": {
     "@types/jest": "24.0.6",
     "@types/node": "10.12.24",
-    "@types/react": "16.8.2",
+    "@types/react": "16.8.1",
     "@types/react-cache": "2.0.0",
     "@types/react-dom": "16.8.2",
     "@types/why-did-you-update": "0.0.9",
