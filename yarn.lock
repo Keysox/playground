@@ -936,10 +936,10 @@
   resolved "https://registry.yarnpkg.com/@types/jest-diff/-/jest-diff-20.0.1.tgz#35cc15b9c4f30a18ef21852e255fdb02f6d59b89"
   integrity sha512-yALhelO3i0hqZwhjtcr6dYyaLoCHbAMshwtj6cGxTvHZAKXHsYGdff6E8EPw3xLKY0ELUTQ69Q1rQiJENnccMA==
 
-"@types/jest@24.0.5":
-  version "24.0.5"
-  resolved "https://registry.yarnpkg.com/@types/jest/-/jest-24.0.5.tgz#a4f9e255f460ce24896cfec89aacf1151a2131ee"
-  integrity sha512-Xj6xJ0bzP7a78ZSEY6P0Q4ZIb/YbdPiFsEUOTki6wZOE3lpANJoyjQpCe3DgUvUZGw56IMqTjFEmMaqzbteLmw==
+"@types/jest@24.0.6":
+  version "24.0.6"
+  resolved "https://registry.yarnpkg.com/@types/jest/-/jest-24.0.6.tgz#ba4c8c7900ce098a82ca99293cbe4192bde4f355"
+  integrity sha512-NE7FBG/F4cMDKdCBqgyd+Sa6JZ5GiMOyA5QwJdeS4Ii/Z9a18WgGbFrHbcr48/7I9HdnkaAYP+S2MmQ27qoqJA==
   dependencies:
     "@types/jest-diff" "*"
 
@@ -990,10 +990,10 @@
   resolved "https://registry.yarnpkg.com/@types/react-cache/-/react-cache-2.0.0.tgz#591dccb95dbe98f9cbb3309ee65f7eba8c2c6f02"
   integrity sha512-cH0wn8yra09EkAq/IKGLQksoyeEozLpJx6rBQh5bKCvTlPwg+MYCTj8sywpyVsfIxPNYB5Yd+S3d7F6ypmxtqQ==
 
-"@types/react-dom@16.8.1":
-  version "16.8.1"
-  resolved "https://registry.yarnpkg.com/@types/react-dom/-/react-dom-16.8.1.tgz#e43810a5e44b37854a9c7cd99e6c43e4f522c7c6"
-  integrity sha512-Vyo4LqUvpjNC9RMXV6kXcsvW6U/WKOuHbz+mtY43Fu8AslHjQ5/Yx+sj0agGLkbnqOlQgyIgosewcxdjMirVXA==
+"@types/react-dom@16.8.2":
+  version "16.8.2"
+  resolved "https://registry.yarnpkg.com/@types/react-dom/-/react-dom-16.8.2.tgz#9bd7d33f908b243ff0692846ef36c81d4941ad12"
+  integrity sha512-MX7n1wq3G/De15RGAAqnmidzhr2Y9O/ClxPxyqaNg96pGyeXUYPSvujgzEVpLo9oIP4Wn1UETl+rxTN02KEpBw==
   dependencies:
     "@types/react" "*"
 
