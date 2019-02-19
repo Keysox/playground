@@ -8,11 +8,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-img {
-  max-height: 50vh;
-  max-width: 50vw;
-}
-
 #root {
   align-items: center;
   background-color: #282c34;
@@ -21,4 +16,13 @@ img {
   flex-direction: column;
   font-size: calc(10px + 2vmin);
   min-height: 100vh;
+}
+
+h1 {
+  text-align: center;
+}
+
+img {
+  max-height: 50vh;
+  max-width: 50vw;
 }

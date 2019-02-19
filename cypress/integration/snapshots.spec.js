@@ -4,4 +4,12 @@ describe('The home page', function() {
 
     cy.matchImageSnapshot()
   })
+
+  it('should load properly on mobile', function() {
+    cy.viewport('iphone-6')
+
+    cy.visit('http://localhost:3000/')
+
+    cy.matchImageSnapshot()
+  })
 })
