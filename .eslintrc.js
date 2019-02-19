@@ -1,5 +1,6 @@
 module.exports = {
   env: {
+    'cypress/globals': true,
     browser: true,
     jest: true,
     node: true,
@@ -13,6 +14,7 @@ module.exports = {
   parserOptions: {
     sourceType: 'module',
   },
+  plugins: ['cypress'],
   settings: {
     react: {
       version: 'detect',
