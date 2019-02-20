@@ -8,10 +8,12 @@
     "@types/node": "^10.12.24",
     "@types/react": "^16.8.2",
     "@types/react-dom": "^16.8.2",
+    "@types/react-router-dom": "^4.3.1",
     "@types/why-did-you-update": "^0.0.9",
     "@typescript-eslint/parser": "^1.3.0",
     "cypress": "^3.1.5",
     "cypress-image-snapshot": "^3.0.0",
+    "eslint-plugin-cypress": "^2.2.1",
     "eslint-plugin-jsx-a11y": "^6.2.1",
     "eslint-plugin-react": "^7.12.4",
     "react-scripts": "^2.1.5",
@@ -21,11 +23,12 @@
   "dependencies": {
     "normalize.css": "^8.0.1",
     "react": "^16.8.0",
-    "react-dom": "^16.8.0"
+    "react-dom": "^16.8.0",
+    "react-router-dom": "^4.3.1"
   },
   "scripts": {
     "build": "react-scripts build",
-    "cypress": "cypress run --browser chrome --env updateSnapshots=true",
+    "cypress": "cypress run --env updateSnapshots=true",
     "lint": "eslint . --ext .ts,.tsx",
     "start": "react-scripts start",
     "test": "react-scripts test"
