@@ -1104,10 +1104,10 @@
     "@types/unist" "*"
     "@types/vfile-message" "*"
 
-"@types/why-did-you-update@^0.0.9":
-  version "0.0.9"
-  resolved "https://registry.yarnpkg.com/@types/why-did-you-update/-/why-did-you-update-0.0.9.tgz#443bb251f4e91b86a046ab83827be3d6770181f2"
-  integrity sha512-yzSPPkATho3qJf65L0RRkjj/QtG7w10lRYyuIplYZIK4FHOuGKaF2gpVImiNFewaGsVtIWiTcQyg9ueEqJc72A==
+"@types/why-did-you-update@^0.0.10":
+  version "0.0.10"
+  resolved "https://registry.yarnpkg.com/@types/why-did-you-update/-/why-did-you-update-0.0.10.tgz#3ea3e0d2f08afa8d6e5bf806e75d24a2175b5746"
+  integrity sha512-65pkA3BCLjhA7WOKDJIFRcshcniPv5a1Vpis5AgpViFOAI2tcLdDzcXUPtHFf7uge4yFKU5Y0Vi9ndDhZfSdqw==
   dependencies:
     "@types/react" "*"
 
