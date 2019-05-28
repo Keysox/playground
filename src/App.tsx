@@ -16,6 +16,9 @@ class App extends Component {
             <NavLink activeClassName={ACTIVE_CLASS_NAME} exact={true} to="/">
               All
             </NavLink>
+            <NavLink activeClassName={ACTIVE_CLASS_NAME} to="/food">
+              Food
+            </NavLink>
             <NavLink activeClassName={ACTIVE_CLASS_NAME} to="/landscape">
               Landscape
             </NavLink>
@@ -33,6 +36,7 @@ class App extends Component {
             </NavLink>
           </nav>
           <Route exact path="/" component={All} />
+          <Route path="/food" component={Food} />
           <Route path="/landscape" component={Landscape} />
           <Route path="/macro" component={Macro} />
           <Route path="/sports" component={Sports} />
@@ -50,6 +54,17 @@ interface Image {
   description: string
   src: string
 }
+
+const foodImages: Image[] = [
+  {
+    cameraMetadata: 'SONY ILCE-7RM3 ƒ/2.8 1/160 35mm ISO640',
+    date: 'Dec 22, 2018 Sat, 12:15 PM',
+    description:
+      'Roasted Cauliflower; goats cheese, shishito - herb vinaigrette at Kyu in Miami, Florida',
+    src:
+      'https://lh3.googleusercontent.com/FkcLGLzzL_OkUzxoEDSJ_h1zECl963AQYDR0qfMLQenxiFua0irzXkk9iLMBtJtmwTDKHGKFXahJKmHc1MnO4bhSAY8CugDfTQIghFhkMQ08G-btyUlKjemcAiZ3VMbVxyqB_KBR0ow2xi4vPps15hxWipRHOZpYjR7PzNDI1oTdrsc7LaSN2Jpy7DgtSuhBakABORUMS9L8_YihayVYmr4psf-iAqx06FaPdLmopsm0IpjUEEvcodG-rEpAmT674ATBQKgN6sVV28i0nJW7teNvmv0B5ZPvy5QjsZMW9tv1znaN2o6LZkgtSClqvuHu43HNMNfXAOM08iChv64sCc-w9uZRlmHUO6QRkOWDW9zGPuOBWth4XPgl7e4jfyrQnpOUQ_IGEcmu2TiqpmVh2xXtVmgrx-8BIEFEC-FK6uBkimuBhpOnMaCSr3-c9_vdRW4LNwRhXBFF77EYV517G4cJOE1pg3l66-RYiRPxh62tLENYPAaKiW7jMUPg88fOX0VKT0XmTBD1i1b7iCLK8d1ZDnHnqGpPUz-650cPCQlgG29k3i5YPhosRK7jC3aVR4nt7O4i4EXe9EpNoWLa4_Cw6xb708-SsMWSfseX5D9OtZUEJVZQ9UkjWpb2zjXSVNeYtXkn_rU_54_6CWUyVccQNPqVoHmim0Pnybtph6EdztqmTvM_ChlTpimU7GKzt173VTwwS3EUvCSFO6qYpHlaUw=w1462-h974-no',
+  },
+]
 
 const landscapeImages: Image[] = [
   {
@@ -167,11 +182,25 @@ const sportsImages: Image[] = [
 
 const streetImages: Image[] = [
   {
+    cameraMetadata: 'SONY ILCE-7RM3 ƒ/5 1/400 35mm ISO100',
+    date: 'Dec 22, 2018 Sat, 10:18 AM',
+    description: 'Early morning in Miami, Florida',
+    src:
+      'https://lh3.googleusercontent.com/sBr9WMl-V0eSpZXn1eZLnL0DZ6Vqt_bIaUwNbfhvn0gb6ENI9FpygIhLWaS7Da0JJJy6hHF4PSMVjdm1BSg3j0FCl0NeEdODEhBF2uel6LZORBX2BrO1YG58dNbTTNjW3RmlllVhrO6QqTLpuaoxFpdsLl5vhx7unMKy6-lwv2knY0fQwyhR_RRRHyX4Kx_nom7isS9-ZfzthHi87uG4PdxJkSAWrLJgWxBtyk7xyLNmLhCLAYDf0mAmftg_2cnkh1sdvM1LoMDEOdLCAV5dic-0nuCsM8BjoUe9rIE0suXFLO8jc9tGXwfZTnVGanNOY4RnglNJtDxBmoI-9ZFOv2Ou9lNVdZ7smQVITOXaz5jRFlNVYgcz-OCKXOWUbLk7XI2KsBD06QgZy_AnWlnEif0o_e5OSCGa15-rN5mKTWXuyt8M-ryhb-jFbC2f6Q_dtHuc2I9BP4sbJKYcbsEPKuIvA6c0ETo8Z8PgTwBjmwu0J9dks_WoKb8vjFLbAwJHSjrhoqdoy0pRFUJjOF8OkFFpw1ebmvYmnRtMOm5ks8tPoHXBZol756JZNqXAJC-2dF2nVKhAmvxb0u5ioin-1g9ZPp5P_BPPldFcq1kz_Mrmebdg_xY7W6rTRBBUweYqrsQRkLvMGyNlOMAcZRran2B2vaNZ4GDZX61D9uaRe4QiQl6hH-tCyDsAfmrYrwmpLSirG5xAf5VmHYRpRsSempi-Nw=w1462-h974-no',
+  },
+  {
     cameraMetadata: 'SONY ILCE-7RM3 ƒ/5 1/125 35mm ISO100',
     date: 'Dec 22, 2018 Sat, 10:29 AM',
     description: 'Street art in Miami, Florida',
     src:
       'https://lh3.googleusercontent.com/tbGZT_hFbhD5Bzz4Bj7LM-8LHN4zzCOez3DibK6jpQJfDeCbudFWnnK6Yiyza0SVdPznr536OpUzE4KDnTkrxChoR_70O1cwB7OXDyFNxKVBH_YzfFXQTZhcU8DmQydM1KEaGDeQClE-Js6UAndfSoq2vEB5wq7x9sSZtrgqLbO46kuL5ykeA5oTGoQEtTjykXFt9KW6KMlkfXrpx37EgldwD62mAeXfLpwLF4h2sAk1Gubm4OcyO75_j6NHQkyT3FgL9xnd6GPXHPPNCO-9Bb1X8OGavsGdV7LiLUDerldHH-1f82gHwXveP99KpXEwSEu3UTSo7zoCpZiG0tvPoGhGebzdmwC7Z1W2p1q1rEyOKSG5Vs6SUpRgIp0BZT6qI2Ofo5ykYig-U0BV3Mr3ZVZ1EjBCYAHWsW1otarNROw_9HO4iTsWNeF1IYcmDt8fBqZrcXnZD8iIaY2r0BlVUu_asP9h7s6-P1FzSJUGEXybycYfo6Uh2FiV5D0NODqwYnOlsBdlV0tHruiIXH2KLmwFyke0alR5rJkoHf2AUlT3CTJGN7N6NBGTGmupVSpPd1xXpVnxNtfMd5-iVZGefQQ0YOLnP4YSaKAghGOwGG3tZ391etBFGTyaJWMYs1JcHTXM7KAeu4om3IcDvH3GgHND_75MWB2JFy6TDXPSmlvYLPaj-5FfRjUqUSIFJUwSrT76dE0Jpecg0sd32imybVt6uw=w1458-h972-no',
+  },
+  {
+    cameraMetadata: 'SONY ILCE-7RM3 ƒ/5 1/200 35mm ISO100',
+    date: 'Dec 22, 2018 Sat, 10:36 AM',
+    description: 'Street art in Miami, Florida',
+    src:
+      'https://lh3.googleusercontent.com/xO2YadYz6mUzihzrMrF5yEd0wfwmMLU-T44kz3SrrtHghuvC6NpY5_mziOK4gz2BoK0VqhRBPhggEgh17ahc4oT0o5T2YGNGYOwPSYU0UG36TncI8xOSb7mbS0JxMeJFDVgO2FmwDj7YKS41hBfLQBi5UDSIrSAKyoO3h0N5BSBgIK2nUlsibSYPRlhEUhXzIWTUphg0atGzfAQaQV5geS-B676973BcZWp5poM9iSaTr5Qh3d6IDJjxO2NJgwzJSfrjgUPgll18tCQLllot224uycv6kQh2KOlS0Nq646IVABcF7bxbAPvfewWYTzU_-0KVTJJyad-ewfUxA5kQ8mhDXI9Di8gU-46udRtYhdEGLqEaJt88fQih8wcdFBC-2mD-QGxT82Xkd22wsALzFhxP6HS4Uq5V2EAL6z6tyENZ6Ntzq1tbz77HI47wRCYA3E5HhX0xW_yGUQ6QHQl4D6esKR64ZGLLhJx1WDQffevCqMxATZd7hM7nJn2rA0GrnC6_7Z6CK9icwwG45qi7LDTEx_CmcHP7-nwzDSnCI-q5fbP1Mxlcwi2IZNZhcNATkD0TK2UcqEdRxmxAIEAfjYk7SHHyMUkKCUZTgUGae_NRr77D9BN6FWTJHlm6UcE2jxdWEHS00tjUJ_YdpZaWUtgpC5B1MdIuunTOJz7oUTnsTHCjLP5uoavRAMa4zCEm56stCRulNQSdFywKY7FgM0YVTQ=w1710-h974-no',
   },
   {
     cameraMetadata: 'SONY ILCE-7RM3 ƒ/5.6 1/1600 400mm ISO1600',
@@ -237,6 +266,7 @@ ${image.cameraMetadata}`
 const All = () => {
   return renderImages(
     ([] as Image[]).concat(
+      foodImages,
       landscapeImages,
       macroImages,
       sportsImages,
@@ -244,6 +274,9 @@ const All = () => {
       wildlifeImages
     )
   )
+}
+const Food = () => {
+  return renderImages(foodImages)
 }
 const Landscape = () => {
   return renderImages(landscapeImages)
