@@ -39,7 +39,6 @@
   },
   "scripts": {
     "build": "react-scripts build",
-    "build-storybook": "build-storybook -s public",
     "cypress": "percy exec -- cypress run --env updateSnapshots=true",
     "lint": "eslint . --ext .ts,.tsx",
     "start": "react-scripts start",
