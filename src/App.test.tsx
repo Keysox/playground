@@ -1,6 +1,6 @@
-import 'jest-dom/extend-expect'
-import 'react-testing-library/cleanup-after-each'
-import { render } from 'react-testing-library'
+import '@testing-library/jest-dom/extend-expect'
+import '@testing-library/react/cleanup-after-each'
+import { render } from '@testing-library/react'
 import React from 'react'
 import ReactDOM from 'react-dom'
 
