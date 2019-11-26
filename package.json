@@ -4,6 +4,7 @@
   "homepage": "https://alexkessock.com/photography/",
   "private": true,
   "devDependencies": {
+    "@percy/cypress": "^2.2.0",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@types/jest": "^24.0.23",
@@ -34,7 +35,7 @@
   },
   "scripts": {
     "build": "react-scripts build",
-    "cypress": "cypress run --env updateSnapshots=true",
+    "cypress": "percy exec -- cypress run --env updateSnapshots=true",
     "lint": "eslint . --ext .ts,.tsx",
     "start": "react-scripts start",
     "test": "react-scripts test"
