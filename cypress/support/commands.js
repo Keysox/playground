@@ -1,4 +1,4 @@
 import { addMatchImageSnapshotCommand } from 'cypress-image-snapshot/command'
-import '@percy/cypress';
+import '@percy/cypress'
 
 addMatchImageSnapshotCommand()
