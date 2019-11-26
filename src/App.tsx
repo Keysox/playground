@@ -2,6 +2,8 @@ import React, { Component } from 'react'
 import { BrowserRouter, Route, NavLink } from 'react-router-dom'
 import { shuffle } from 'lodash'
 
+import Header from './Header'
+
 const ACTIVE_CLASS_NAME = 'selected'
 
 class App extends Component {
@@ -9,9 +11,7 @@ class App extends Component {
     return (
       <BrowserRouter basename={'photography'}>
         <>
-          <header>
-            <h1>Alex Kessock Photography</h1>
-          </header>
+          <Header text={'Alex Kessock Photography'} />
           <nav>
             <NavLink activeClassName={ACTIVE_CLASS_NAME} exact={true} to="/">
               All
