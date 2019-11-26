@@ -4,6 +4,8 @@
   "homepage": "https://alexkessock.com/photography/",
   "private": true,
   "devDependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
     "@types/jest": "^24.0.23",
     "@types/lodash": "^4.14.149",
     "@types/node": "^12.12.14",
@@ -19,9 +21,7 @@
     "eslint-plugin-jsx-a11y": "^6.2.1",
     "eslint-plugin-react": "^7.16.0",
     "jest": "^24.9.0",
-    "jest-dom": "^4.0.0",
     "react-scripts": "^3.2.0",
-    "react-testing-library": "^8.0.1",
     "typescript": "^3.2.4",
     "why-did-you-update": "^1.0.6"
   },
