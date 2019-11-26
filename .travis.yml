@@ -5,6 +5,11 @@ node_js: node
 addons:
   apt:
     packages:
-    - libgconf-2-4
+    - libgconf-2-4 # needed for Ubuntu 16+
 
-script: yarn lint && yarn test && yarn start & $(yarn bin)/cypress run --spec 'cypress/integration/ci/*' --record
+cache:
+  yarn: true
+  directories:
+    - ~/.cache # contains the Cypress binary
+
+script: yarn lint && yarn test && yarn start & $(yarn bin)/percy exec -- $(yarn bin)/cypress run --spec 'cypress/integration/ci/*' --record
