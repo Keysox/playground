@@ -6,48 +6,6 @@ import Header from './Header'
 
 const ACTIVE_CLASS_NAME = 'selected'
 
-class App extends Component {
-  render() {
-    return (
-      <BrowserRouter basename={'photography'}>
-        <>
-          <Header text={'Alex Kessock Photography'} />
-          <nav>
-            <NavLink activeClassName={ACTIVE_CLASS_NAME} exact={true} to="/">
-              All
-            </NavLink>
-            <NavLink activeClassName={ACTIVE_CLASS_NAME} to="/food">
-              Food
-            </NavLink>
-            <NavLink activeClassName={ACTIVE_CLASS_NAME} to="/landscape">
-              Landscape
-            </NavLink>
-            <NavLink activeClassName={ACTIVE_CLASS_NAME} to="/macro">
-              Macro
-            </NavLink>
-            <NavLink activeClassName={ACTIVE_CLASS_NAME} to="/sports">
-              Sports
-            </NavLink>
-            <NavLink activeClassName={ACTIVE_CLASS_NAME} to="/street">
-              Street
-            </NavLink>
-            <NavLink activeClassName={ACTIVE_CLASS_NAME} to="/wildlife">
-              Wildlife
-            </NavLink>
-          </nav>
-          <Route exact path="/" component={All} />
-          <Route path="/food" component={Food} />
-          <Route path="/landscape" component={Landscape} />
-          <Route path="/macro" component={Macro} />
-          <Route path="/sports" component={Sports} />
-          <Route path="/street" component={Street} />
-          <Route path="/wildlife" component={Wildlife} />
-        </>
-      </BrowserRouter>
-    )
-  }
-}
-
 interface Image {
   cameraMetadata: string
   date: string
@@ -369,6 +327,48 @@ const Street = () => {
 }
 const Wildlife = () => {
   return renderImages(wildlifeImages)
+}
+
+class App extends Component {
+  render() {
+    return (
+      <BrowserRouter basename={'photography'}>
+        <>
+          <Header text={'Alex Kessock Photography'} />
+          <nav>
+            <NavLink activeClassName={ACTIVE_CLASS_NAME} exact={true} to="/">
+              All
+            </NavLink>
+            <NavLink activeClassName={ACTIVE_CLASS_NAME} to="/food">
+              Food
+            </NavLink>
+            <NavLink activeClassName={ACTIVE_CLASS_NAME} to="/landscape">
+              Landscape
+            </NavLink>
+            <NavLink activeClassName={ACTIVE_CLASS_NAME} to="/macro">
+              Macro
+            </NavLink>
+            <NavLink activeClassName={ACTIVE_CLASS_NAME} to="/sports">
+              Sports
+            </NavLink>
+            <NavLink activeClassName={ACTIVE_CLASS_NAME} to="/street">
+              Street
+            </NavLink>
+            <NavLink activeClassName={ACTIVE_CLASS_NAME} to="/wildlife">
+              Wildlife
+            </NavLink>
+          </nav>
+          <Route exact path="/" component={All} />
+          <Route path="/food" component={Food} />
+          <Route path="/landscape" component={Landscape} />
+          <Route path="/macro" component={Macro} />
+          <Route path="/sports" component={Sports} />
+          <Route path="/street" component={Street} />
+          <Route path="/wildlife" component={Wildlife} />
+        </>
+      </BrowserRouter>
+    )
+  }
 }
 
 export default App

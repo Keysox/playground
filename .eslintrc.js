@@ -7,6 +7,8 @@ module.exports = {
   },
   extends: [
     'eslint:recommended',
+    'plugin:@typescript-eslint/eslint-recommended',
+    'plugin:@typescript-eslint/recommended',
     'plugin:jsx-a11y/recommended',
     'plugin:react/recommended',
   ],
@@ -14,7 +16,11 @@ module.exports = {
   parserOptions: {
     sourceType: 'module',
   },
-  plugins: ['cypress'],
+  plugins: ['cypress', '@typescript-eslint'],
+  rules: {
+    '@typescript-eslint/explicit-function-return-type': 'off',
+    '@typescript-eslint/member-delimiter-style': 'off',
+  },
   settings: {
     react: {
       version: 'detect',

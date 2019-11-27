@@ -6,8 +6,7 @@ import App from './App'
 import * as serviceWorker from './serviceWorker'
 
 if (process.env.NODE_ENV !== 'production') {
-  const { whyDidYouUpdate } = require('why-did-you-update')
-  whyDidYouUpdate(React)
+  require('why-did-you-update').whyDidYouUpdate(React)
 }
 
 ReactDOM.render(<App />, document.getElementById('root'))
