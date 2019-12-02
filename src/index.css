@@ -71,3 +71,9 @@ nav {
     font-size: 1.5em;
   }
 }
+
+@media only percy {
+  main {
+    display: none;
+  }
+}
