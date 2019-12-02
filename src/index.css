@@ -74,6 +74,6 @@ nav {
 
 @media only percy {
   main {
-    visibility: hidden;
+    display: none;
   }
 }
