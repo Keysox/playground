@@ -56,17 +56,12 @@ main {
 
 nav {
   display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
   text-align: center;
 }
 
-/* matches cypress mobile test px */
-@media (max-width: 375px) {
-  nav {
-    flex-direction: column;
-  }
-}
-
-@media (max-width: 200px) {
+@media (max-width: 600px) {
   h1 {
     font-size: 1.5em;
   }
