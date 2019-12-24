@@ -12,4 +12,4 @@ cache:
   directories:
     - ~/.cache # contains the Cypress binary
 
-script: yarn lint && yarn test && yarn start & wait-on http://localhost:3000/ && $(yarn bin)/percy exec -t 10000 -- $(yarn bin)/cypress run --spec 'cypress/integration/ci/*' --record
+script: yarn lint && yarn test && yarn start & wait-on http://localhost:3000/ && $(yarn bin)/percy exec -- $(yarn bin)/cypress run --spec 'cypress/integration/ci/*' --record
