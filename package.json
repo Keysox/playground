@@ -20,7 +20,7 @@
     "@types/why-did-you-update": "^0.0.10",
     "@typescript-eslint/eslint-plugin": "^2.9.0",
     "@typescript-eslint/parser": "^2.9.0",
-    "cypress": "^3.7.0",
+    "cypress": "^4.0.0",
     "cypress-image-snapshot": "^3.0.2",
     "eslint": "^6.7.2",
     "eslint-plugin-cypress": "^2.7.0",
