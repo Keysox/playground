@@ -29,7 +29,7 @@
     "jest": "^24.9.0",
     "react-scripts": "^3.3.0",
     "typescript": "^3.2.4",
-    "wait-on": "^4.0.0",
+    "wait-on": "^4.0.1",
     "why-did-you-update": "^1.0.6"
   },
   "dependencies": {
