@@ -6,7 +6,7 @@
   "devDependencies": {
     "@percy/cypress": "^2.2.0",
     "@storybook/addon-actions": "^5.3.14",
-    "@storybook/addon-links": "^5.2.8",
+    "@storybook/addon-links": "^5.3.14",
     "@storybook/addons": "^5.3.14",
     "@storybook/react": "^5.3.14",
     "@testing-library/jest-dom": "^5.0.0",
