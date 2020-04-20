@@ -275,6 +275,20 @@ const wildlifeImages: Image[] = [
     src:
       'https://lh3.googleusercontent.com/YUlPiRSyMsQWu9Yw-QpODI0OX9jfOlZSwogM5ZtCyPK4SP3cSK5DCjz_SViBUZ4ubAaPzOf4rvKfW9zBjB72gsfg00-OC_2bFKyZH-zOE6o_mRShb2VvDgx94NG84jzBfh9tVxh4pvzk0R1EN0M1X611SmUMvjJRJ_8B43BrubM5o4dhM-syTO-TSBOWJH5YedRVuzajodqAZ-HALk1vDgDOT9Rx__7vdCdtSC2dFRYPBuOyZw60qL2P9fHdFr29qcrN5J5SqRiXDoM5N5kTrXXbtyrYo_-BQdNxlEhLZBPJ476ucwk41R2rxpTF0p8pjmPaSgJmZE5nTU86s7VPwsFJzHu9pvyUHOzkwB2jsYKBxkHiiYDuz8xNzHWhAYre0eQ7iuw2Y4_UJWzbiV512CY44_A0X-RGKFuoXAhq1ElHE3B5Wq0T1mwFPjxup_Rp1Yk_hGyWOOI2pkIfEQCjtX1qV_UstZKHgXguejGMWl3YeLCDcCv9-9BTRGp74kLguzqbkHbYEst07YlFL_g3EZFTR2dnrGHJsh8E0eq3ii8UhBqJWFmT-PDya7DLXMMMmNSoVieS9FewYyWcZDNscSKefq7FnOa58CC5DjDmKw3a4nLO86JcF1spsq5LbObmEEQd0EKq0zR1tmxXt7Euz5jn-OYltRyAkoGkBB4pFlkDHkS6MyQs3gWLi4q5FQFiuuSM0XESqbehoP39elQG0GGLxQ=w650-h972-no',
   },
+  {
+    cameraMetadata: 'SONY ILCE-7RM3 ƒ/6.3 1/500 600mm ISO800',
+    date: 'Mar 7, 2020 Sat, 3:15 PM',
+    description: 'Palm Warbler eating a caterpillar in Titusville, FL',
+    src:
+      'https://lh3.googleusercontent.com/cmPLEUcnAPvVrHMqRuIkcUKrGBSkA8eq0VcNSp7AxabXnjnGg3moReV0vifB9hrxRSp7r8q1HPA1YkpeHNgAvnAAn_W_YOTEVVSXH3H-wXzJtcgkqHFLYkM79D1ryhQ8Njpt9dkamdHm24ndd_dVIumXmyIKf_0xT6xuM4cFCFn73gHvQRXQF7EDMV-AXKRl072U8zbiKdQL8uRNm1N3B7ZAU1YNUVtAS_f7z6UnCqr-Xt8iCpylrt2pM0GrwZrwk-u4dhsS9HeG27qsEMZXp9yQIrRhzjbkRTukUQ6XLx82MD5Hq4cpajB07jL2WAP4voa0nttcY4dsSA4kKkmFDrGNeW1bYrn45FhDvo6u5ZLqL-LOj9xQfsV7bxc7v5_XvRVR34aaFrD6ewOkyvQA_Rjy7P9rGtFQ9q04QQ9ua0RfPsXgHKea7j60LPgZhnvq-h_SsWfALxIMGuuAIwkRgJB-QTxykMJBHaXe1db-coaar_KXej5YPtM9YSyhhFWMSQJtNGXf5BPWOL6fxnf_rDAv5SGlxrI6dAXnMmEex45-fdu0l4wXU855xw6OGfd_43Xwlcm9iK0ULXHv6dw8OQ2gg9qb4rn3HRw8FV13pGCnXcfrLXnTtRJJSAZQa8w0meMPY2pP7d6d3OOrydfYWzVdJR8LRdeY4wFm9EWW-vd4wuInyCBSZ7unh9F68Q=w1688-h1126-no',
+  },
+  {
+    cameraMetadata: 'SONY ILCE-7RM3 ƒ/6.3 1/500 600mm ISO500',
+    date: 'Apr 2, 2020 Thu, 5:55 PM',
+    description: 'Mourning dove in the snow in Lafayette, CO',
+    src:
+      'https://lh3.googleusercontent.com/ZNk38ez6XzeWoEWQb5DhsksE5_G7wxuyXUReW4mAjwZ_To44_ta2xYZacQkhS0glv2qT919dzkggxyqHwiHYPC068kthWIU8iNkiuWpS8FBG6rVZPwo6jM7ISX_5U9YBrhpu130RRW0=w1986-h1324-no',
+  },
 ]
 
 function renderImages(images: Image[]) {
@@ -284,7 +298,7 @@ function renderImages(images: Image[]) {
 ${image.cameraMetadata}`
   }
 
-  const imgs = shuffle(images).map(image => {
+  const imgs = shuffle(images).map((image) => {
     return (
       <figure key={image.src}>
         <img

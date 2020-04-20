@@ -5,8 +5,11 @@ import './index.css'
 import App from './App'
 import * as serviceWorker from './serviceWorker'
 
-if (process.env.NODE_ENV !== 'production') {
-  require('why-did-you-update').whyDidYouUpdate(React)
+if (process.env.NODE_ENV === 'development') {
+  // eslint-disable-next-line @typescript-eslint/no-var-requires
+  require('@welldone-software/why-did-you-render')(React, {
+    trackAllPureComponents: true,
+  })
 }
 
 ReactDOM.render(<App />, document.getElementById('root'))

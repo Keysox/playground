@@ -1,7 +1,5 @@
 # Photography
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/Keysox/photography.svg)](https://greenkeeper.io/)
-
 ## Available Scripts
 
 In the project directory, you can run:
