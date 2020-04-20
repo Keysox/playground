@@ -282,6 +282,13 @@ const wildlifeImages: Image[] = [
     src:
       'https://lh3.googleusercontent.com/cmPLEUcnAPvVrHMqRuIkcUKrGBSkA8eq0VcNSp7AxabXnjnGg3moReV0vifB9hrxRSp7r8q1HPA1YkpeHNgAvnAAn_W_YOTEVVSXH3H-wXzJtcgkqHFLYkM79D1ryhQ8Njpt9dkamdHm24ndd_dVIumXmyIKf_0xT6xuM4cFCFn73gHvQRXQF7EDMV-AXKRl072U8zbiKdQL8uRNm1N3B7ZAU1YNUVtAS_f7z6UnCqr-Xt8iCpylrt2pM0GrwZrwk-u4dhsS9HeG27qsEMZXp9yQIrRhzjbkRTukUQ6XLx82MD5Hq4cpajB07jL2WAP4voa0nttcY4dsSA4kKkmFDrGNeW1bYrn45FhDvo6u5ZLqL-LOj9xQfsV7bxc7v5_XvRVR34aaFrD6ewOkyvQA_Rjy7P9rGtFQ9q04QQ9ua0RfPsXgHKea7j60LPgZhnvq-h_SsWfALxIMGuuAIwkRgJB-QTxykMJBHaXe1db-coaar_KXej5YPtM9YSyhhFWMSQJtNGXf5BPWOL6fxnf_rDAv5SGlxrI6dAXnMmEex45-fdu0l4wXU855xw6OGfd_43Xwlcm9iK0ULXHv6dw8OQ2gg9qb4rn3HRw8FV13pGCnXcfrLXnTtRJJSAZQa8w0meMPY2pP7d6d3OOrydfYWzVdJR8LRdeY4wFm9EWW-vd4wuInyCBSZ7unh9F68Q=w1688-h1126-no',
   },
+  {
+    cameraMetadata: 'SONY ILCE-7RM3 ƒ/6.3 1/500 600mm ISO500',
+    date: 'Apr 2, 2020 Thu, 5:55 PM',
+    description: 'Mourning dove in the snow in Lafayette, CO',
+    src:
+      'https://lh3.googleusercontent.com/ZNk38ez6XzeWoEWQb5DhsksE5_G7wxuyXUReW4mAjwZ_To44_ta2xYZacQkhS0glv2qT919dzkggxyqHwiHYPC068kthWIU8iNkiuWpS8FBG6rVZPwo6jM7ISX_5U9YBrhpu130RRW0=w1986-h1324-no',
+  },
 ]
 
 function renderImages(images: Image[]) {
