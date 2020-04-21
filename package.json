@@ -47,7 +47,8 @@
     "lint": "eslint . --ext .ts,.tsx",
     "start": "react-scripts start",
     "storybook": "start-storybook -p 9009 -s public",
-    "test": "react-scripts test"
+    "test": "react-scripts test",
+    "tsc": "tsc --noEmit"
   },
   "browserslist": [
     ">0.2%",

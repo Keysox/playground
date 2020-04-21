@@ -5,15 +5,15 @@ import ReactDOM from 'react-dom'
 
 import Header from './Header'
 
+const text = 'Alex Kessock Photography'
+
 it('renders without crashing', () => {
   const div = document.createElement('div')
-  ReactDOM.render(<Header />, div)
+  ReactDOM.render(<Header text={text} />, div)
   ReactDOM.unmountComponentAtNode(div)
 })
 
 it('renders a header', () => {
-  const text = 'Alex Kessock Photography'
-
   const { getByText } = render(<Header text={text} />)
 
   expect(getByText(text)).toBeInTheDocument()
