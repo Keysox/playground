@@ -188,6 +188,14 @@ const streetImages: Image[] = [
     src:
       'https://lh3.googleusercontent.com/gNdcZmb2oBAurdjkdiXqR6i_H5G1NVBxXKtfoegFNzEyKZ-idAYaFa0SYxH0tGaUHNyhT9E4NYF78ck3DSSbIw44x3S2qKpbLzr1QqXgeflpbu5SDpejywFAvf0QFsYxZXBIEgPuckbXkLRQrq78-cSU8-I1FGXtHrcB1HGUfb8oYYOCM6FsGpy0BN0Wlpu3TjHGLXZkywvp_pwHahcaA36aHNtfhmEQ1kA8SXZXB8EvP2ds7VPOk3menb3HOdQaI5CBGpEM3SLB-ZvIFOby8uqZKvU6SfnDIXDqI6lZOkfskFg2WZNK4t3H2Nz_9pluAxjXzIjWaD1IlxH42w8NG83S7qozDwCTSwnstSg0e_AxmsS7t_UewXdf8_MSam3aHpqIfsxhDWgQa-_tzyF_vCzsM5M6KS_4w89gkTvfryxTI-QQek-SwGuyqVuV9-QZQ9nwaVWaqRWl2WA0pTWFEBiw7La5nm3so9Im1bowjTRos3Fwt9pLf0KPlF4oAxT-FvMRlK7kkn3-BZYFtUyRvHtTS3zPPd0e8K6McXauo0r_TKFbB_0G29mGOM5zQopwMEIt87qaG1JMRxZoikH3TFCrBWLmYd5ia1z-nSosW4JLIniIRptJPdOgT8Vi1rehZg_Z12_9g9vzLFKInZXKe8XAbLbYAri11owlIETkmL6fJniE5dd0VYfrQDIHPlAygqx5QCcVKN48fPpSfATQLKdtreXMNLrmqyDR3ZNZ3JqvUC48=w996-h1492-no',
   },
+  {
+    cameraMetadata: 'SONY ILCE-7RM3 ƒ/6.3 1/8000 600mm ISO1250',
+    date: 'Apr 18, 2020 Sat, 2:52 PM',
+    description:
+      'Flyover to salute the healthcare workers, first responders and other essential personnel on the front line against COVID-19',
+    src:
+      'https://lh3.googleusercontent.com/0uPVOqfEAZ8LWwubO8-ClS829caGz1oXIdcFN3MVa4vbThrjvzx-d9J8PvKru8WaMWTEeNffJBX1eGj6BYa6JE-a4A5cA66axDWQ8EoXx9SMWCAaQBtAtwkbNnysUfVufxKkWac8yLU=w1986-h1324-no',
+  },
 ]
 
 const wildlifeImages: Image[] = [
