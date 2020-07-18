@@ -1,3 +1,5 @@
+name: CI
+
 on: push
 
 jobs:
@@ -11,14 +13,6 @@ jobs:
         uses: cypress-io/github-action@v2
         with:
           runTests: false
-
-      - uses: actions/cache@v2
-        with:
-          path: ~/.npm
-          key: ${{ runner.os }}-node-${{ hashFiles('yarn.lock') }}
-
-      - name: Install dependencies
-        run: yarn --frozen-lockfile
 
       - name: Lint
         run: yarn lint
