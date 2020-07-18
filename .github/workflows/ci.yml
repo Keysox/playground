@@ -13,6 +13,11 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
+      - name: Install dependencies
+        uses: cypress-io/github-action@v2
+        with:
+          runTests: false
+
       - uses: actions/cache@v2
         with:
           path: ~/.npm
@@ -30,8 +35,16 @@ jobs:
       - name: TypeScript
         run: yarn tsc
 
-      - name: Start
-        run: yarn start & yarn wait-on http://localhost:3000/
-
       - name: Cypress
-        run: $(yarn bin)/percy exec -- $(yarn bin)/cypress run --spec 'cypress/integration/ci/*' --record
+        uses: cypress-io/github-action@v2
+        with:
+          command-prefix: percy exec --
+          install: false
+          record: true
+          spec: cypress/integration/ci/*
+          start: yarn start
+          wait-on: localhost:3000
+        env:
+          CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PERCY_TOKEN: ${{ secrets.PERCY_TOKEN }}
