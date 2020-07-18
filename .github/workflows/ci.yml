@@ -39,7 +39,7 @@ jobs:
           record: true
           spec: cypress/integration/ci/*
           start: yarn start
-          wait-on: localhost:3000
+          wait-on: http://localhost:3000
         env:
           CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
