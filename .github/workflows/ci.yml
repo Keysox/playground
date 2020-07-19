@@ -1,0 +1,38 @@
+name: CI
+
+on: push
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Install dependencies
+        uses: cypress-io/github-action@v2
+        with:
+          runTests: false
+
+      - name: Lint
+        run: yarn lint
+
+      - name: Jest
+        run: yarn test
+
+      - name: TypeScript
+        run: yarn tsc
+
+      - name: Cypress
+        uses: cypress-io/github-action@v2
+        with:
+          command-prefix: percy exec --
+          install: false
+          record: true
+          spec: cypress/integration/ci/*
+          start: yarn start
+          wait-on: http://localhost:3000
+        env:
+          CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PERCY_TOKEN: ${{ secrets.PERCY_TOKEN }}
