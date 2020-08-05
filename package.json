@@ -24,7 +24,7 @@
     "@typescript-eslint/eslint-plugin": "^2.34.0",
     "@typescript-eslint/parser": "^2.34.0",
     "@welldone-software/why-did-you-render": "^4.2.7",
-    "cypress": "^4.12.0",
+    "cypress": "^4.12.1",
     "cypress-image-snapshot": "^3.0.2",
     "eslint": "^6.7.2",
     "eslint-plugin-cypress": "^2.11.1",
