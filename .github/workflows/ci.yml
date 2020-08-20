@@ -28,7 +28,6 @@ jobs:
         with:
           command-prefix: percy exec --
           install: false
-          record: true
           spec: cypress/integration/ci/*
           start: yarn start
           wait-on: http://localhost:3000
