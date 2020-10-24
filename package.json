@@ -26,11 +26,10 @@
     "@welldone-software/why-did-you-render": "5.0.0",
     "cypress": "5.4.0",
     "cypress-image-snapshot": "3.1.1",
-    "eslint": "6.8.0",
     "eslint-plugin-cypress": "2.11.2",
     "eslint-plugin-jsx-a11y": "6.3.1",
     "eslint-plugin-react": "7.21.5",
-    "react-scripts": "3.4.4",
+    "react-scripts": "4.0.0",
     "typescript": "4.0.3",
     "wait-on": "5.2.0"
   },
