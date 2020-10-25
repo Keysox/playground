@@ -4,6 +4,7 @@ import 'normalize.css'
 import './index.css'
 import App from './App'
 import * as serviceWorker from './serviceWorker'
+import LogRocket from 'logrocket'
 
 if (process.env.NODE_ENV === 'development') {
   // eslint-disable-next-line @typescript-eslint/no-var-requires
@@ -11,6 +12,8 @@ if (process.env.NODE_ENV === 'development') {
     trackAllPureComponents: true,
   })
 }
+
+LogRocket.init('tlxym5/alex-kessock')
 
 ReactDOM.render(<App />, document.getElementById('root'))
 
