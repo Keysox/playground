@@ -4,6 +4,8 @@ import 'normalize.css'
 import './index.css'
 import App from './App'
 import * as serviceWorker from './serviceWorker'
+import * as Sentry from '@sentry/react'
+import { Integrations } from '@sentry/tracing'
 
 if (process.env.NODE_ENV === 'development') {
   // eslint-disable-next-line @typescript-eslint/no-var-requires
@@ -11,6 +13,13 @@ if (process.env.NODE_ENV === 'development') {
     trackAllPureComponents: true,
   })
 }
+
+Sentry.init({
+  dsn:
+    'https://659b07fb917244ceaba2e0f66debee09@o466823.ingest.sentry.io/5481454',
+  integrations: [new Integrations.BrowserTracing()],
+  tracesSampleRate: 1.0,
+})
 
 ReactDOM.render(<App />, document.getElementById('root'))
 
