@@ -34,8 +34,8 @@
     "wait-on": "5.2.0"
   },
   "dependencies": {
-    "@sentry/react": "5.27.3",
-    "@sentry/tracing": "5.27.3",
+    "@sentry/react": "5.27.4",
+    "@sentry/tracing": "5.27.4",
     "lodash": "4.17.20",
     "normalize.css": "8.0.1",
     "react": "17.0.1",
