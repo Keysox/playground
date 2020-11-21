@@ -304,6 +304,14 @@ const wildlifeImages: Image[] = [
     src:
       'https://lh3.googleusercontent.com/3LrnQySy5ALpVz-aaiWYNI2PyBwP2ixsbrKV4NvDoTdwj443idJ9KH6C4TfmNTIY-EQ67LZLkwjmHzAhwk-2Bqsaa2bemxXelW0h6oY7T-7-jwXPjdh8Y0Qg8e8Uar6VO2TQk2VIlwE=w884-h1324-no',
   },
+  {
+    cameraMetadata: 'SONY ILCE-7RM3 ƒ/6.3 1/500 481mm ISO8000',
+    date: 'Aug 18, 2020 Tues, 9:26 AM',
+    description:
+      'Ruffed grouse playing hide and seek while enjoying his breakfast in Olympic National Park',
+    src:
+      'https://lh3.googleusercontent.com/ZZ6UXzsl1vR2qzoWbK9BGRNszIFCqe_d38Oj3OaTD7LT9AGqkBuUKh_VbxzAg_mXkHDLWRrPYbypNE94yNfV3sxPtd284dyKg0izjhyx1KG38GzmQwiZxVBaIUgA603uRcp1-aEzwaF9VVB10QPHW9RLXdtfk3a17VnlvowRqUPo8CP_ZApd-BebC25oWy3tboBcNHkx4b_3S4UILgAcg2JUCb1FaUdX03O6PpUmEfbxqDJSGFG5lEbt91MDeYkn_TJEV8W5ZlTnTkKCdX32YEzRxSabRGYNRQPTMajNoGgPrhjeVq_4nBJM6rGrNKM7sUdp2lXwoEySzsw5s0k83HtdVvBRnOUJB3KrIBV1dEN87jgnhpnsRlczINvAwcrPzPJp6zPPH8sTMdtfGRujBcJo2RA17El87VlcKG0xtGMrvQgWE5U5ojXuOmWhfHl_7XtRGhpoS-5rbofIo5Z47oxkQhHFzNI9ayDyWnQKeH7FeeHO7AGTAJakSqjmo4TAs7BWcMETMrvpzO8tbFqPWN4IBDLbpkrApF_nO3MpvhwceA--CXrOkxUoOQnBBzOfNjauVRubapm5cqeMbkGO6uQ2KHbLWsCm_EwFvRvOTbmZAMdD84e0ONJlOu3waMMHCDvqpPPNF2_-SqxbKHVtsRDvJh9PMwgnImLsi1WNuubVkmti2P31gcm7KIw1EQ=w1828-h1218-no?authuser=0',
+  },
 ]
 
 function renderImages(images: Image[]) {
