@@ -23,7 +23,7 @@
     "@types/react-router-dom": "5.1.6",
     "@typescript-eslint/eslint-plugin": "4.8.2",
     "@typescript-eslint/parser": "4.8.2",
-    "@welldone-software/why-did-you-render": "6.0.1",
+    "@welldone-software/why-did-you-render": "6.0.3",
     "cypress": "6.0.0",
     "cypress-image-snapshot": "4.0.0",
     "eslint-plugin-cypress": "2.11.2",
