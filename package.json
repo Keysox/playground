@@ -1,6 +1,5 @@
 {
   "name": "photography",
-  "version": "0.1.0",
   "homepage": "https://alexkessock.com/photography/",
   "private": true,
   "devDependencies": {
@@ -29,6 +28,7 @@
     "eslint-plugin-cypress": "2.11.2",
     "eslint-plugin-jsx-a11y": "6.4.1",
     "eslint-plugin-react": "7.21.5",
+    "prettier": "2.2.0",
     "react-scripts": "4.0.1",
     "typescript": "4.1.2",
     "wait-on": "5.2.0"
@@ -45,7 +45,7 @@
   "scripts": {
     "build": "react-scripts build",
     "cypress": "percy exec -- cypress run --env updateSnapshots=true",
-    "lint": "eslint . --ext .ts,.tsx",
+    "lint": "prettier --check . && eslint . --ext .ts,.tsx",
     "start": "react-scripts start",
     "storybook": "start-storybook -p 9009 -s public",
     "test": "react-scripts test",
