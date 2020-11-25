@@ -46,6 +46,13 @@ const landscapeImages: Image[] = [
     src:
       'https://lh3.googleusercontent.com/Zro3G4ULdyTWA41Gejn65jFxoOoTSSTjeJwqNMHEQjhi8U1WZlB-sfRkXfqcK11D8aRMicBtuykwjmob2eLff6M222RezdifTTgTMcLBy3Kr3EQagRqOfKzC61EW2CRSZ5zfL8JF1eZU86BjL30zVA5bWo0PWmspve-oiUm23Dyej_iS0lPHC5QY9oEorNd7J5SYTSjBc3qgUf_bG-mVlXPuyJFgQFG7SSUnHjKsFmg-TbwUNgFnMaDsIv9PhbfJI5iIUZ2wpg7fh5ju_7LWhcS7WYzbgbBj7rk8HESfIdwimemI5-NEZ9k3oQITmXmbxs7XUh1qAba_RPBRR9A6Z7nj_ZmgobCVzcFSMPJzuUyR9DwBE9j2LEHznLnDpQ5dUmRcMmKzqWtKomSjPyNAdetwIIU9l5s7kXqL3FYwrCdrP5Is6QnWwM0IHJrdWJ4CGsP-qI_Zw7Z_6oWFkTCVzuYo0YtQdZENh3zNQ_G72PNd5mBAYeCrxqSQAW8S9fageCBnYuXaDQxcgBNLtrguLvxpJpASkQ5YZp_DSaxSwZx-hjm6itETD8vb9FBd6NSP_4Bti2JvizotPv0rnnZZRB-o2RocEdXj0Ug6nwpQUvTo8Z_srFjoL9GjYQnN9nTKLzIKSAim9wHyqEshO_kFSwi_2X1CMmTmlQEKwOEfsZvXxhIdWp40Ai0k8wwwiQ=w814-h1218-no?authuser=0',
   },
+  {
+    cameraMetadata: 'SONY ILCE-7RM3 ƒ/5.6 1/800 200mm ISO100',
+    date: 'Aug 27, 2020 Thu, 5:12 PM',
+    description: 'Rainbow power lines in Lafayette, CO',
+    src:
+      'https://lh3.googleusercontent.com/RDt0a0v81JY32QgfuY-A2NV9QI-l-HKARtG6PKgtgJ5EhsCVh93NpgmUYizashL6mN3By8kcK_6O0zRolw4SPETQZQRx66lUlMKNRNAP_AdHp4mdFygSISoopOO_0ICewlwJTRqATpx6DxzlxtXj4LN4sWv8-kNpq-G9x5b338kxnWLP9OOUYqMnXWDJPcxyHeQXhoYmtIb4YPbPoXdI3v4z98E5IcXhtU4pSloNSzY-s1J5i8CdixELhdd1yG5st5rNHQsSBz1b0MDR4RrEY7G5M0RahN0IRmcuLTYiiuXzBa8vQgJuWtpimIAgw_gnBQejV_Uytq_F7qdJz8eXQY5rH_6xVMC3DbT73itUKAN3T823zAoHlvDeqa7aF2BsFKDRh1T3r0_6AeQ4q_5bwuiaIEB0TUa7ZMtMUHZkulDAsGmPfrzr1q0rdW4LIkyDVQRfUWizBsQAvDkBFVNeOm861KbtGx7_QTWmJehp_9siQZR_A1iJRrX2RMwSj5WBtERfr1bjNrK77ivJUjL_0JAeJBv25gHkz9t_VDvXGch2Pin_9svrXoEmA49DY0-EMeEGoq3a4hGiuKHZ1pX-z_xCXVc6DM-hpfvqQI5p47DH7pEvq4ikVQbMae6T48FLVg1B0HlEkP1hn3Dl802DWaxlTGMTBSwqmBcgVZRXpCtHRgyamcDs6q63fx2tYg=w1758-h1172-no?authuser=0',
+  },
 ]
 
 const macroImages: Image[] = [
@@ -321,7 +328,7 @@ const wildlifeImages: Image[] = [
   },
   {
     cameraMetadata: 'SONY ILCE-7RM3 ƒ/6.3 1/500 506mm ISO1000',
-    date: 'Sep 19 Sat, 4:22 PM',
+    date: 'Sep 19, 2020 Sat, 4:22 PM',
     description: "Wilson's Warbler in Rocky Mountain National Park",
     src:
       'https://lh3.googleusercontent.com/rt0VSvHBcLfhtcxIXmZ1QQPN6tZL9pjXRr3XjS0uepyeweBWHzRZzG_6TOyzc3onExYMwg8mZe5to-6nkLQDjF5VBPYwncqKX21LZV1wMdT4i9lLkjTnsLDmIdjJgsfYj-x5EJZrUFxef950WYQ3wZfBKuDJH0KfgoAis8Zw14SdSVRRyi7MBerxSbvKBx7JgUfeWVJid-XuS2CND84hoDoN47FItOkxAZVo79fCh7zcknIy53nJ0EfBEWwIcoXwFk-WVgVpIkFr29s1vcqlgJmF4zhE0ExHZQ8VE0QuAeDMoBUydoaalMEiVJjCS8oHEBkJ1QnMzT3NoIV6mPlwLsrvPgMnuD-WYTbBqcOvKI96-pZsvhfbMxf_6afj_XCdVcRS0lKLu4rGKyiaDRlyx2sK6T44X3B71PZ7NqBSPwiGZR-Hec7O7Q5YZGkjVuENvTFN4EQud_VX1kMu-h21asD4g6uaNhLNxx6zWGxihphX4exg1sYlVoGEfxrLEBZFmwqwCN7y-DukW21PLMdzSzOuC8cemL_DsfArVjAGYmiMJU3Ifs6o8FFxqDwp7Nr7OIiizXOun3Luzo6Xc737A-ddAV-GeSSHGuu4oHE9c5h0XKNsXAnG3DIWiKCGiRA4HU1FrSbNC9-UmAZwnOb-nyJK2AoBPgdm-owrnHIO4bTRPxThau4GpN8FDQi1gg=w1586-h1058-no?authuser=0',
