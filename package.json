@@ -3,7 +3,7 @@
   "homepage": "https://alexkessock.com/photography/",
   "private": true,
   "devDependencies": {
-    "@babel/helper-builder-react-jsx-experimental": "7.12.4",
+    "@babel/helper-builder-react-jsx-experimental": "7.12.10",
     "@babel/helper-validator-identifier": "7.10.4",
     "@babel/plugin-transform-react-jsx-development": "7.12.7",
     "@babel/preset-modules": "0.1.4",
