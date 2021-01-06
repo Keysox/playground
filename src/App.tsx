@@ -410,7 +410,7 @@ const wildlifeImages: Image[] = [
     date: 'Oct 31, 2020 Sat, 12:32 PM',
     description: 'Downy woodpecker in Boulder, Colorado',
     src:
-      'https://photos.google.com/share/AF1QipPqyxkjDvdYc5ayyCeZ8AZqm36xBDZA6jA8_eb3juOOuS05RKcr8EYcQ58CeZ3i8g/photo/AF1QipPF97Mmwwzb662SaPO2WSvuMGgLVtM29aIcOiDt?key=dXJnVUJwdnd0RmdtNzk5eERQYzJmdmFGUEhNeTN3',
+      'https://lh3.googleusercontent.com/pw/ACtC-3deBTxmmR9VLRv_DWLmU_8KiM1my9OUFfHD0kJl7hHRzwcagCvuD4hSBMM7LLiEUprCzaZFDWYFMo3ktVX8U-A9uCAMiBTAis-iXhTj3v-TiD0_nEaXGPIyYqkPT5yFBlX_ceLXW-PqzK5OQEs06RUH_Q=w1508-h2260-no?authuser=0',
   },
 ]
 
