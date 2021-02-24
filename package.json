@@ -5,7 +5,7 @@
   "devDependencies": {
     "@babel/helper-builder-react-jsx-experimental": "7.12.11",
     "@babel/helper-validator-identifier": "7.12.11",
-    "@babel/plugin-transform-react-jsx-development": "7.12.16",
+    "@babel/plugin-transform-react-jsx-development": "7.12.17",
     "@babel/preset-modules": "0.1.4",
     "@percy/cypress": "2.3.4",
     "@storybook/addon-actions": "6.1.18",
