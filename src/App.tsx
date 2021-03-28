@@ -415,7 +415,8 @@ const wildlifeImages: Image[] = [
   {
     cameraMetadata: 'SONY ILCE-7RM3 ƒ/6.3 1/500 600mm ISO250',
     date: 'Jan 27, 2021 Wed, 7:24 AM',
-    description: 'Coyote vs. Sandhill Cranes',
+    description:
+      'Coyote & Sandhill Cranes in Bosque Del Apache National Wildlife Refuge, New Mexico',
     src:
       'https://lh3.googleusercontent.com/pw/ACtC-3dbRtvu8onhozQgYvA7kXQwqBeyzaUTZhDsSsFim89ynpzYa8NT8GeUJo14JagY4201C0Sicfh7e76mACNLdzc9ftAEmW6sDdWXG2von0Z9fQPYBAgkC63ioW5a2L3vu3PRPdGjYhB2DaH5LvKm95VeNQ=w526-h786-no?authuser=0',
   },
