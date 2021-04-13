@@ -23,7 +23,7 @@
     "@typescript-eslint/eslint-plugin": "4.22.0",
     "@typescript-eslint/parser": "4.22.0",
     "@welldone-software/why-did-you-render": "6.1.1",
-    "cypress": "7.0.1",
+    "cypress": "7.1.0",
     "cypress-image-snapshot": "4.0.1",
     "eslint-plugin-cypress": "2.11.2",
     "eslint-plugin-jsx-a11y": "6.4.1",
