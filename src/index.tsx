@@ -15,8 +15,7 @@ if (process.env.NODE_ENV === 'development') {
 }
 
 Sentry.init({
-  dsn:
-    'https://659b07fb917244ceaba2e0f66debee09@o466823.ingest.sentry.io/5481454',
+  dsn: 'https://659b07fb917244ceaba2e0f66debee09@o466823.ingest.sentry.io/5481454',
   integrations: [new Integrations.BrowserTracing()],
   tracesSampleRate: 1.0,
 })
