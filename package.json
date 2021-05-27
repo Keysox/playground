@@ -7,7 +7,7 @@
     "@babel/helper-validator-identifier": "7.14.0",
     "@babel/plugin-transform-react-jsx-development": "7.12.17",
     "@babel/preset-modules": "0.1.4",
-    "@percy/cli": "1.0.0-beta.51",
+    "@percy/cli": "1.0.0-beta.52",
     "@percy/cypress": "3.1.0",
     "@storybook/addon-actions": "6.2.9",
     "@storybook/addon-links": "6.2.9",
